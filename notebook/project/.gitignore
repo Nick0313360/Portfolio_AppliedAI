@@ -1,0 +1,17 @@
+# Virtual environment (large, machine-specific, rebuilt from requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data: the database is recreated by `python db.py`
+*.db
+
+# Generated charts (results.md stays committed)
+outputs/*.png
+
+# Model caches and secrets
+.cache/
+.env
+
+# OS junk
+.DS_Store
